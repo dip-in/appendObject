@@ -3,6 +3,7 @@ javascript code to append a property to an object. If the property exists do not
 
 Here is the code. Its only a few liens so easy to copy and paste. 
 
+```
 addPropertyIfNotExists(newConfig, originalConfig) {
   for (let key in newConfig) {
     if (originalConfig[key]) {  // check if a property already exists. If it does we need to check if it has nested objects. 
@@ -15,10 +16,12 @@ addPropertyIfNotExists(newConfig, originalConfig) {
     }
   }
 }
+```
 
 Example Usage 
 
 Example 1: 
+```
 const newConfig = {
   options: {
     scales: {
@@ -49,7 +52,7 @@ const originalConfig = {
   }
 };
 
-Output after calling the function 
+// Output after calling the function 
 
 addPropertyIfNotExists(newConfig, originalConfig);
 
@@ -77,4 +80,5 @@ addPropertyIfNotExists(newConfig, originalConfig);
   }
 };
 ******************/
+```
 
