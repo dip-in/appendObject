@@ -1,5 +1,5 @@
 # appendObject
-javascript code to append a property to an object. If the property exists do nothing. Creating this method cause I was tired of doing a bunch of checks to make before adding a property to an object. 
+javascript code to append a property to an object. If the property present do nothing, if it does is not present then add the property. Creating this method cause I was tired of doing a bunch of checks before adding a property to an object. 
 
 Here is the code. Its only a few liens so easy to copy and paste. 
 
